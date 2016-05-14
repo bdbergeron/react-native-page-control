@@ -1,22 +1,40 @@
 {
-  "name": "PageControlDemo",
-  "version": "0.0.1",
-  "private": true,
+  "name": "react-native-page-control",
+  "version": "2.0.0",
+  "description": "Page Control for React Native, like iOS UIPageControl",
+  "keywords": [
+    "react",
+    "react-native",
+    "react-component",
+    "page-control",
+    "PageControl",
+    "UIPageControl"
+  ],
+  "author": "Qiang.mou",
+  "contributors": [
+    "Bradley David Bergeron <brad@bradbergeron.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/silentcloud/react-native-page-control",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/silentcloud/react-native-page-control.git"
+  },
+  "bugs": {
+    "url": "https://github.com/silentcloud/react-native-page-control/issues"
+  },
   "scripts": {
-    "start": "node_modules/react-native/packager/packager.sh",
     "lint": "eslint ."
   },
-  "dependencies": {
-    "react": "^0.14.8",
-    "react-native": "^0.25.0",
-    "react-native-page-control": "./RNPageControl"
-  },
+  "main": "PageControl.js",
   "devDependencies": {
     "babel-eslint": "^6.0.4",
     "eslint": "^2.10.0",
     "eslint-config-airbnb": "^9.0.1",
     "eslint-plugin-import": "^1.8.0",
     "eslint-plugin-jsx-a11y": "^1.2.0",
-    "eslint-plugin-react": "^5.1.1"
+    "eslint-plugin-react": "^5.1.1",
+    "react": "^0.14.8",
+    "react-native": "^0.25.0"
   }
 }
