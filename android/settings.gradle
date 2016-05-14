@@ -1,0 +1,3 @@
+rootProject.name = 'PageControlDemo'
+
+include ':app'
